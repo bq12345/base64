@@ -1,0 +1,40 @@
+{
+    "name": "Base64",
+    "description": "Simple Base64 Library",
+    "version": "1.0.0",
+    "author": {
+        "name": "Bai Qiang",
+        "email": "developer.bq@gmail.com"
+    },
+    "contributors": [
+        {
+            "name": "Bai Qiang",
+            "email": "developer.bq@gmail.com",
+            "url": "https://github.com/bq12345/"
+        }
+    ],
+    "repository": {
+        "type": "url",
+        "url": "git+https://github.com/bq12345/base64"
+    },
+    "bugs": {
+        "url": "https://github.com/bq12345/base64/issues"
+    },
+    "keywords": [
+        "base64",
+        "crypto"
+    ],
+    "main": "index.js",
+    "browser": "dist/base64.js",
+    "dependencies": {},
+    "devDependencies": {
+        "browserify": "^13.1.0",
+        "mocha": "^2.5.3",
+        "should": "^10.0.0"
+    },
+    "license": "MIT",
+    "scripts": {
+        "test": "node node_modules/.bin/mocha test/test.js",
+        "build": "node node_modules/.bin/browserify lib/index.js -o build/bundle.js"
+    }
+}

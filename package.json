@@ -25,16 +25,18 @@
         "crypto"
     ],
     "main": "index.js",
-    "browser": "dist/base64.js",
+    "browser": "build/bundle.js",
     "dependencies": {},
     "devDependencies": {
         "browserify": "^13.1.0",
+        "istanbul": "^0.4.4",
         "mocha": "^2.5.3",
         "should": "^10.0.0"
     },
     "license": "MIT",
     "scripts": {
         "test": "node node_modules/.bin/mocha test/test.js",
-        "build": "node node_modules/.bin/browserify lib/index.js -o build/bundle.js"
+        "build": "node node_modules/.bin/browserify lib/index.js -o build/bundle.js",
+        "cover": "node node_modules/.bin/istanbul cover _mocha test/test.js"
     }
 }

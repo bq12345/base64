@@ -6,8 +6,9 @@ Base64 is a robust base64 encoder/decoder that is fully compatible with atob() a
 
 use npm:
 
-> npm install https://github.com/bq12345/base64
-
+```bash
+npm install https://github.com/bq12345/base64
+```
 in browser:
 
 ```html
@@ -32,12 +33,15 @@ var dncodedData = Base64.atob(input);
 
 ## Test
 
-> npm test
-
+```bash
+npm test
+```
 
 ## Build
 
-> npm run build
+```bash
+npm run build
+```
 
 ## License
 

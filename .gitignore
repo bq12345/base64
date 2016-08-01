@@ -20,3 +20,7 @@ out
 .DS_Store
 
 dist/
+
+# istanbul
+
+coverage/

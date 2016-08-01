@@ -19,7 +19,7 @@ in browser:
 
 ```js
 
-var Base = require('Base64');
+var Base64 = require('Base64');
 
 var encodedData = Base64.encode(input);
 
@@ -35,6 +35,12 @@ var dncodedData = Base64.atob(input);
 
 ```bash
 npm test
+```
+
+## Cover
+
+```bash
+npm run cover
 ```
 
 ## Build

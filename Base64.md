@@ -23,7 +23,7 @@ Base64是用a-z、A-Z、0-9、"+"、"/"（还有填充用的"="，实际上是65
 
 ### 编码表
 
- <table style="text-align:center;margin: 1em 0; background-color: #f9f9f9; border: 1px solid #aaa; border-collapse: collapse;color: #000">
+ <table>
  <tbody><tr>
  <th scope="col">数值</th>
  <th scope="col">字符</th>
@@ -434,6 +434,9 @@ function _atob(s) {
 ### 参考
 
 [Wiki](https://zh.wikipedia.org/wiki/Base64)
+
 [Base64在线转换](http://www.mxcz.net/tools/base64.aspx)
+
 [C实现](http://base64.sourceforge.net/)
+
 [Java实现](http://iharder.sourceforge.net/current/java/base64/)
